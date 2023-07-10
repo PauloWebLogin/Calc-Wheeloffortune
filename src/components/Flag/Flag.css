@@ -1,0 +1,25 @@
+.flagDivs {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 100px;
+  margin: 10px;
+}
+
+.flagLines {
+  display: flex;
+  flex: 1;
+  width: 100%;
+}
+
+.horizontalFlag {
+  flex-direction: row;
+}
+
+.verticalFlag {
+  flex-direction: column;
+}
+
+.circle {
+  border-radius: 50%;
+}
